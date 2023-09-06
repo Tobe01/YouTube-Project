@@ -1,0 +1,188 @@
+.navbar {
+width: 230px;
+position: fixed;
+left: 0;
+bottom: 0;
+top: 0;
+margin: 65px 0 0 10px;
+overflow-y: hidden;
+overflow-x: hidden;
+z-index: 500;
+}
+
+.navbar:hover{
+overflow-y: auto;
+}
+
+.navbar::-webkit-scrollbar{
+width: 8px;
+}
+
+.navbar::-webkit-scrollbar-track{
+background-color: transparent;
+}
+
+.navbar::-webkit-scrollbar-thumb{
+background-color: rgb(136, 136, 136);
+border-radius: 10px;
+}
+
+.first-container {
+border-bottom: solid rgb(221, 221, 221) 1px;
+width: 218px;
+height: 138px;
+cursor: pointer;
+}
+
+.second-container {
+width: 218px;
+height: 265px;
+border-bottom: solid rgb(221, 221, 221) 1px;
+cursor: pointer;
+}
+
+.third-container {
+width: 218px;
+height: 393px;
+border-bottom: solid rgb(221, 221, 221) 1px;
+cursor: pointer;
+}
+
+.fourth-container {
+width: 218px;
+margin-top: 18px;
+height: 275px;
+border-bottom: solid rgb(221, 221, 221) 1px;
+}
+
+.fifth-container {
+width: 218px;
+margin-bottom: 10px;
+height: 213px;
+border-bottom: solid rgb(221, 221, 221) 1px;
+}
+
+.sixth-container {
+width: 218px;
+margin-bottom: 10px;
+height: 185px;
+border-bottom: solid rgb(221, 221, 221) 1px;
+}
+
+.seventh-container {
+width: 218px;
+margin-bottom: 15px;
+height: 185px;
+border-bottom: solid rgb(221, 221, 221) 1px;
+cursor: auto;
+}
+
+.img {
+width: 25px;
+height: 25px; 
+margin: 5px 0 0 2px;
+}
+
+.img1 {
+width: 25px;
+height: 25px; 
+margin: 5px 0 0 2px;
+border-radius: 50%;
+}
+
+.inset {
+display: flex;
+flex-direction: row;
+align-items: top;
+width: 200px;
+margin: 0 0 5px 2px;
+padding-left: 10px;
+border-radius: 12px;
+transition: background-color 0.3s;
+}
+
+.inset:hover {
+background-color: rgb(238, 238, 238);
+}
+
+.inset:active{
+background-color: rgb(204, 204, 204);
+transition: background-color 0.2s;
+}
+
+.homie {
+margin: 8px 0 14px 22px;
+font: 15px arial;
+}
+
+.special {
+font: 17px arial;
+margin: 17px 0 10px 14px;
+cursor: auto;
+}
+
+.sperm {
+color: blue;
+margin-left: 72px;
+}
+
+.sperm2 {
+color: blue;
+margin-left: 5px;
+}
+
+.special1 {
+margin: 20px 0 8px 15px;
+padding-top: 18px;
+cursor: auto;
+}
+
+.special2 {
+margin: 20px 0 10px 15px;
+}
+
+.para {
+font: 13px arial;
+color: grey;
+line-height: 18px;
+}
+
+.para2 {
+font: 13px arial;
+color:  grey;
+line-height: 18px;
+}
+
+.co {
+width: 160px;
+margin: 18px 0 19px 14px;
+height: 50px;
+}
+
+.co2 {
+height: 60px;
+margin: 13px 0 0 14px;
+width: 170px;
+}
+
+.co3 {
+width: 150px;
+margin-left: 17px;
+}
+
+.para3 {
+font: 12px arial;
+color: grey;
+cursor: auto;
+}
+
+.link {
+text-decoration: none;
+font-weight: bold;
+color: grey;
+}
+
+
+
+
+

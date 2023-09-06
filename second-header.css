@@ -1,0 +1,133 @@
+.header3 {
+background-color: white;
+position: fixed;
+right: 0;
+left: 245px;
+top: 50px;
+display: flex;
+flex: 1;
+height: 60px;
+align-items: center;
+margin: -3px 0 0 0;
+z-index: 120;
+}
+
+.tipsy {
+padding: 7px 12px 7px 12px;
+font: 14px arial;
+border: none;
+border-radius: 7px;
+cursor: pointer;
+margin: 9px 8px 0 7px;
+white-space: nowrap;
+transition: background-color 0.3s;
+cursor: pointer;
+position: relative;
+}
+
+.tipsy:hover{
+background-color:  rgb(230, 230, 230);
+}
+
+.tipsy1 {
+background: grey;
+height: 37px;
+width: 38px;
+margin-left: 15px;
+border-radius: 50%;
+border: none;
+background-color: white;
+cursor: pointer;
+transition: background-color 0.3s;
+}
+
+.tipsy1:hover{
+background-color:  rgb(230, 230, 230);
+}
+
+.tipsy2 {
+height: 30px;
+padding: 7px 12px 7px 12px;
+font: 14px arial;
+border: none;
+border-radius: 7px;
+cursor: pointer;
+margin: 9px 8px 0 7px;
+background-color: black;
+color: white;
+}
+
+.tool {
+position: relative;
+}
+
+.tool-tip {
+background-color: white;
+position: absolute;
+border: 1px solid black;
+padding: 4px 7px 4px 7px;
+font-size: 13px;
+right: -10px;
+bottom: -28px;
+cursor: pointer;
+opacity: 0;
+pointer-events: none;
+white-space: nowrap;
+transition-delay: 1s;
+}
+    
+.tipsy:hover .tool-tip{
+opacity: 1;
+}
+
+.tool1 {
+position: relative;
+}
+
+.tool-tip1 {
+background-color: rgba(0, 0, 0, 0.5);
+position: absolute;
+color: white;
+padding: 10px 9px 10px 9px;
+font-size: 12px;
+border-radius: 4px;
+left: 17px;
+bottom: -49px;
+opacity: 0;
+pointer-events: none;
+transition-delay: 1s;
+}
+
+.tipsy1:hover .tool-tip1{
+opacity: 1;
+}
+
+.tool2 {
+position: relative;
+}
+
+.tool-tip2 {
+background-color: white;
+position: absolute;
+color: black;
+border: 1px solid black;
+padding: 4px 7px 4px 7px;
+font-size: 13px;
+right:-7px;
+bottom: -27px;
+opacity: 0;
+pointer-events: none;
+transition-delay: 1s;
+}
+
+.tipsy2:hover .tool-tip2{
+opacity: 1;
+}
+
+
+
+
+
+
+
+    
